@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Sorter {
-	private final File shortcuts = new File("eclipse_shortcuts.csv");
-	private final File sortedShortcuts = new File("sorted_shortcuts.csv");
+	private final File shortcuts = new File("hotkeys\\eclipse_shortcuts.csv");
+	private final File sortedShortcuts = new File("hotkeys\\sorted_shortcuts.csv");
 	private BufferedReader bReader;
 	private BufferedWriter bWriter;
 	private String[] shortcutLines;
